@@ -6,8 +6,6 @@
 #define BUCKET_MAX 2500
 // Average bucket size; used when rebuilding BBTREE (10% of b_max)
 #define BUCKET_AVG 250
-// Minimum bucket size
-#define BUCKET_MIN 5
 // k-1
 #define DELIMITERS_PER_SPLIT 16
 // Percentage of buckets that are allowed to be a superbucket
